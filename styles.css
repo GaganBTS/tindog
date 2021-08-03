@@ -1,0 +1,253 @@
+body {
+      font-family: "Montserrat", sans-serif;
+}
+
+#title {
+      background-color: #ff4c68;
+      color: white;
+}
+
+.td {
+      padding-left: 5px;
+}
+
+nav {
+      font-weight: 600;
+      font-size: large;
+      /* padding-bottom: 4.5rem; */
+
+
+}
+
+.container-fluid {
+      padding: 5% 15%;
+}
+
+.navbar-brand {
+      font-family: 'Josefin Slab', serif;
+      font-size: 2.5rem;
+      font-weight: bolder;
+      transition: font-size 4s;
+      transition-timing-function: ease;
+
+
+
+}
+
+.navbar-brand:hover {
+      font-size: 4.5rem;
+}
+
+.navbar {
+      padding: 0 0 4.5rem;
+}
+
+.nav-item {
+      padding-left: 18px;
+      padding-right: 18px;
+}
+
+
+
+h1 {
+      font-family: "Montserrat-Black", sans-serif;
+      font-size: 3rem;
+      line-height: 1.5;
+      font-weight: 900;
+
+      margin-bottom: 3rem;
+}
+
+h2 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 3rem;
+      line-height: 1.5;
+      font-weight: bold;
+      padding-left: 7%;
+      padding-right: 7%;
+      padding-top: 7%;
+}
+
+/* .download-button {
+      margin: 2% 2% 2% 2%;
+} */
+
+.title-img {
+      transform: rotate(25deg);
+      width: 20%;
+
+      position: absolute;
+      right: 22%;
+
+
+
+}
+
+@media (max-width:1230px) {
+      .title-img {
+            position: static;
+            transform: rotate(0);
+            width: 60%;
+      }
+
+      #title {
+            text-align: center;
+      }
+
+      .download-button {
+            margin-bottom: 5px;
+      }
+}
+
+#features {
+
+      position: relative;
+      z-index: 1;
+      background-color: #fff;
+
+}
+
+
+.specs-img {
+      color: #ef8172;
+      size: 5x;
+      padding-bottom: 2rem;
+
+}
+
+.specs-row {
+      text-align: center;
+
+      /* margin: 50px auto 50px auto; */
+      padding: 7% 15%;
+
+}
+
+.specs-img:hover {
+      color: #ff4c68;
+}
+
+.specs {
+      /* font-weight: bold; */
+      font-size: 1.5rem;
+      font-family: "Monsterrat-bold", sans-serif;
+      font-weight: 900;
+}
+
+#testimonials {
+      text-align: center;
+
+      background-color: #ef8172;
+      color: #fff;
+}
+
+.carousal-item {
+      padding: 7% 15%;
+}
+
+.test-img {
+      width: 15%;
+      border-radius: 100%;
+      margin: 30px;
+}
+
+#press {
+      background-color: #ef8172;
+      padding-bottom: 30px;
+      text-align: center;
+}
+
+.press-img {
+      width: 13%;
+      margin: 20px 20px 30px 20px;
+}
+
+#pricing {
+      text-align: center;
+      padding: 100px;
+}
+
+.card {
+      margin: 3%;
+}
+
+#cta {
+      background-color: #ff4c68;
+      padding: 2%;
+      text-align: center;
+}
+
+.cta-h3 {
+      font-family: 'Monsterrat', sans-serif;
+      color: #fff;
+      font-weight: bold;
+      font-size: 3rem;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+
+}
+
+#footer {
+      text-align: center;
+      background-color: #fff;
+      padding: 2%;
+}
+
+.f-i {
+      color: grey;
+      padding: 10px 10px 20px 10px;
+      transition: width 3s, transform 3s;
+
+}
+
+.f-i:hover {
+      width: 2rem;
+      transform: rotate3d(20, 20, 20, 360deg);
+}
+
+/* .navbar {
+      position: fixed;
+} */
+/* // Generate series of `.navbar-expand-*` responsive classes for configuring
+// where your navbar collapses. */
+/* .navbar {
+      @each $breakpoint in map-keys($grid-breakpoints) {
+            $next: breakpoint-next($breakpoint, $grid-breakpoints);
+            $infix: breakpoint-infix($next, $grid-breakpoints);
+
+            // stylelint-disable-next-line scss/selector-no-union-class-name
+            &#{$infix} {
+                  @include media-breakpoint-up($next) {
+                        flex-wrap: nowrap;
+                        justify-content: flex-start;
+
+                        .navbar-nav {
+                              flex-direction: row;
+
+                              .dropdown-menu {
+                                    position: absolute;
+                              }
+
+                              .nav-link {
+                                    padding-right: $navbar-nav-link-padding-x;
+                                    padding-left: $navbar-nav-link-padding-x;
+                              }
+                        }
+
+                        .navbar-nav-scroll {
+                              overflow: visible;
+                        }
+
+                        .navbar-collapse {
+                              display: flex !important; // stylelint-disable-line declaration-no-important
+                              flex-basis: auto;
+                        }
+
+                        .navbar-toggler {
+                              display: none;
+                        }
+                  }
+            }
+      }
+} */
