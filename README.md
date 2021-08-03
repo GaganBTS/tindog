@@ -1,2 +1,1 @@
-# tindog
-Dog version of tinder.
+TinDog Starting Files
